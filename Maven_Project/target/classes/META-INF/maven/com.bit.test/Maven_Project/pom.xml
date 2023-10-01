@@ -3,8 +3,9 @@
   <groupId>com.bit.test</groupId>
   <artifactId>Maven_Project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependencies>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -15,9 +16,9 @@
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.13.2</version>
-   
-  </dependency>
+    <scope>test</scope>
+</dependency>
 
 
-  </dependencies>
+</dependencies>
   </project>
